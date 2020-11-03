@@ -1,0 +1,32 @@
+{
+  "name": "hb-wdio-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heisenbug-2020-wdio-workshop/hb-wdio-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heisenbug-2020-wdio-workshop/hb-wdio-project/issues"
+  },
+  "homepage": "https://github.com/heisenbug-2020-wdio-workshop/hb-wdio-project#readme",
+  "devDependencies": {
+    "@types/mocha": "^8.0.3",
+    "@wdio/cli": "^6.7.2",
+    "@wdio/local-runner": "^6.7.2",
+    "@wdio/mocha-framework": "^6.7.0",
+    "@wdio/spec-reporter": "^6.7.0",
+    "@wdio/sync": "^6.7.2",
+    "chromedriver": "^86.0.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5",
+    "wdio-chromedriver-service": "^6.0.4"
+  }
+}
