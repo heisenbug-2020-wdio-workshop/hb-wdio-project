@@ -4,7 +4,7 @@ import { Config } from "@wdio/sync";
 export const config: Config = {
     runner: 'local',
     specs: [
-        './test/specs/**/*.js'
+        './test/**/*.ts'
     ],
     maxInstances: 1,
     capabilities: [{
