@@ -6,6 +6,8 @@ export const config: Config = {
     specs: [
         './test/**/*.ts'
     ],
+    hostname: process.env.SELENIUM_HUB_HOST ?? 'localhost',
+    path: '/wd/hub',
     maxInstances: 1,
     capabilities: [{
         browserName: 'chrome'
@@ -16,7 +18,6 @@ export const config: Config = {
     waitforTimeout: 10000,
     connectionRetryTimeout: 120000,
     connectionRetryCount: 3,
-    services: ['chromedriver'],
     framework: 'mocha',
     reporters: ['spec'],
     mochaOpts: {
